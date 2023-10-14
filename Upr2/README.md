@@ -24,13 +24,13 @@
 5.  Първата задача, като преди всяко **read** се слага системен примитив **lseek**.
     
 
-1.  lseek(fd, 0 , 0)
+ a)  lseek(fd, 0 , 0)
     
-2.  lseek( fd, 3, 0)
+ b)  lseek( fd, 3, 0)
     
-3.  lseek( fd, 3, SEEK_CUR)
+ c)  lseek( fd, 3, SEEK_CUR)
     
-4.  lseek( fd, -3, SEEK_END) и други варианти
+ d)  lseek( fd, -3, SEEK_END) и други варианти
     
 
   
